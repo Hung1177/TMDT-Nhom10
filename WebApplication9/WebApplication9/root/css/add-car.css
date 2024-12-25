@@ -1,0 +1,125 @@
+﻿.add-sv {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 1.8rem;
+    align-items: stretch;
+}
+
+.left-section, .right-section {
+    min-height: 400px; /* Hoặc chiều cao bạn mong muốn */
+    padding: 20px;
+    background-color: #f9f9f9; /* Tùy chọn để phân biệt hai phần */
+    border-radius: 4px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+
+    .right-section img {
+        max-width: 100%;
+        height: auto;
+    }
+
+/**/
+
+.button-group .btn-add {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    background-color: #28a745;
+}
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        width: 100%;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .form-group input, .form-group select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+.form-group-half {
+    width: 48%;
+    margin-right: 4%;
+}
+
+    .form-group-half:last-child {
+        margin-right: 0;
+    }
+
+.form-group img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group .file-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .form-group .file-input input[type="file"] {
+        display: none;
+    }
+
+    .form-group .file-input label {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .form-group .file-input span {
+        margin-left: 10px;
+    }
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+    .button-group button {
+        padding: 10px 20px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+
+    .button-group .btn-cancel {
+        background-color: #dc3545;
+        color: #fff;
+    }
+
+@media (max-width: 768px) {
+    .add-sv {
+        grid-template-columns: 1fr; /* Cả hai phần sẽ xếp chồng lên nhau */
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        min-height: auto; /* Để đảm bảo không bị chiều cao cố định */
+    }
+}

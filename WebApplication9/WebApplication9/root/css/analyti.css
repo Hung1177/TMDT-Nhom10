@@ -1,0 +1,70 @@
+﻿.content-analyti {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.charts-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Mặc định 3 cột */
+    gap: 1rem;
+    width: 100%;
+}
+
+canvas {
+    width: 100%;
+    max-width: 400px; /* Chiều rộng tối đa */
+    max-height: 350px; /* Chiều cao tối đa */
+    background-color: var(--color-light);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+}
+/*  */
+@media screen and (max-width: 1920px) {
+    .charts-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    canvas {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    #statusChart {
+        max-width: 350px;
+        max-height: 350px;
+    }
+}
+
+/* Màn hình nhỏ hơn 1200px */
+@media screen and (max-width: 1800px) {
+    .charts-container {
+        grid-template-columns: repeat(3, 1fr); /* Chuyển thành 3 cột */
+    }
+
+    canvas {
+        width: 100%;
+        max-width: 430px;
+        max-height: 350px;
+    }
+
+    #topProductsChart {
+        width: 100%;
+        max-height: 200px;
+    }
+}
+
+/* Màn hình nhỏ hơn 768px */
+@media screen and (max-width: 768px) {
+    .charts-container {
+        grid-template-columns: 1fr; /* Chuyển thành 1 cột */
+    }
+
+    canvas {
+        max-width: 100%; /* Chiều rộng 100% */
+        max-height: auto; /* Điều chỉnh tự động chiều cao */
+    }
+}

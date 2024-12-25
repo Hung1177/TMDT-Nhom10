@@ -1,0 +1,148 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="WebApplication9.Admin.Views.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="<%= ResolveUrl("~/root/css/index.css") %>">
+    <title>Quản lý xe</title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+<form id="form1" runat="server">
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+
+                <div class="toggle">
+                    <div class="logo">
+                    <img src="<%= ResolveUrl("~/root/image/logo-admin.png") %>">
+                        <h2>VinfastAuto</h2>
+                    </div>
+                    <div class="close" id="close-btn">
+                        <span class="material-icons-sharp">
+                            close
+                        </span>
+                    </div>
+                </div>
+                <div class="sidebar">
+                    <a href="<%= ResolveUrl("~/Admin/Views/Dashboard.aspx") %>"  class="<%= GetActiveClass("Dashboard.aspx") %>">
+                        <span class="material-icons-sharp">
+                            dashboard
+                        </span>
+                        <h3>Dashboard</h3>
+                    </a>
+                    <a href="<%= ResolveUrl("~/Admin/Views/car.aspx") %>" class="<%= GetActiveClass("car.aspx") %>">
+                        <span class="material-icons-sharp">
+                            directions_car
+                        </span>
+                        <h3>Car</h3>
+                    </a>
+                    <a href="/Admin/product-motobike/motobike.html" id=" lectur-link">
+                        <span class="material-icons-sharp">
+                            two_wheeler
+                        </span>
+                        <h3>Motobike</h3>
+                    </a>
+                    <a href="<%= ResolveUrl("~/Admin/Views/order.aspx") %>" class="<%= GetActiveClass("order.aspx") %>">
+                        <span class="material-icons-sharp">
+                            inventory_2
+                        </span>
+                        <h3>Order</h3>
+                    </a>
+                    <a href="/Admin/complete/complete.html" id="class-link">
+                        <span class="material-icons-sharp">
+                            inventory
+                        </span>
+                        <h3>Complete</h3>
+                    </a>
+                    <a href="/Admin/client/client.html" id="calendar-link">
+                        <span class="material-icons-sharp">
+                            people
+                        </span>
+                        <h3>Client</h3>
+                    </a>
+                    <a href="<%= ResolveUrl("~/Admin/Views/analyti.aspx") %>" class="<%= GetActiveClass("analyti.aspx") %>">
+                        <span class="material-icons-sharp">
+                            insights
+                        </span>
+                        <h3>Analytics</h3>
+                    </a>
+                    <a href="/Admin/warehouse/warehouse.html" id="subject-link">
+                        <span class="material-icons-sharp">
+                            warehouse
+                        </span>
+                        <h3>Warehouse</h3>
+                    </a>
+                    <a href="/Admin/staff/staff.html" id="person-link">
+                        <span class="material-icons-sharp">
+                            person_outline
+                        </span>
+                        <h3>Staff</h3>
+                    </a>
+                    <a href="/Admin/role/role.html" id="account-link">
+                        <span class="material-icons-sharp">
+                            manage_accounts
+                        </span>
+                        <h3>Admin </h3>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">
+                            logout
+                        </span>
+                        <h3>Logout</h3>
+                    </a>
+                </div>
+        </aside>
+        <!-- End of Sidebar Section -->     
+            <main>
+            <!-- Dashboard -->
+                <div id="dashboard-content" class="contner active">
+                    <div class="main-nemu">
+                        <h1>
+                            <asp:ContentPlaceHolder ID="titlec" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </h1>
+                        <div class="nav">
+                            <button id="menu-btn">
+                                <span class="material-icons-sharp">
+                                    menu
+                                </span>
+                            </button>
+                            <div class="dark-mode">
+                                <span class="material-icons-sharp active">
+                                    light_mode
+                                </span>
+                                <span class="material-icons-sharp">
+                                    dark_mode
+                                </span>
+                            </div>
+            
+                            <div class="profile">
+                                <div class="info">
+                                    <p>Hey, <b id="name-id">Reza</b></p>
+                                    <small class="text-muted" id="office">Admin</small>
+                                </div>
+                                <div class="profile-photo" >
+                                    <a href="d:\DV3\fo_end\index.html">
+                                    <img src="<%= ResolveUrl("~/root/image/profile-1.jpg") %>">
+                                    </a>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                    <asp:ContentPlaceHolder ID="noidung" runat="server">  
+
+                    </asp:ContentPlaceHolder>
+                 </div>
+            </main>             
+    </div>
+    </form>
+<script src="<%= ResolveUrl("~/root/js/index.js") %>"></script>
+</body>
+</html>
+

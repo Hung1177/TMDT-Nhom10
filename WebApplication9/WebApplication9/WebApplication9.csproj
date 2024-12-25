@@ -1,0 +1,367 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{09C262CC-578C-4423-B96B-3430F0A0DF4E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication9</RootNamespace>
+    <AssemblyName>WebApplication9</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Views\addDX.aspx" />
+    <Content Include="Admin\Views\addNXX.aspx" />
+    <Content Include="Admin\Views\addSP.aspx" />
+    <Content Include="Admin\Views\analyti.aspx" />
+    <Content Include="Admin\Views\car.aspx" />
+    <Content Include="Admin\Views\Dongxe.aspx" />
+    <Content Include="Admin\Views\hangxe.aspx" />
+    <Content Include="Admin\Views\order.aspx" />
+    <Content Include="Admin\Views\updateDH.aspx" />
+    <Content Include="Admin\Views\updateSP.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="login.aspx" />
+    <Content Include="root\css\add-car.css" />
+    <Content Include="root\css\add-DH.css" />
+    <Content Include="root\css\analyti.css" />
+    <Content Include="root\css\car.css" />
+    <Content Include="root\css\car1.css" />
+    <Content Include="root\css\dongxe.css" />
+    <Content Include="root\css\hangxe.css" />
+    <Content Include="root\css\index.css" />
+    <Content Include="root\css\order.css" />
+    <Content Include="root\css\ShopOto.css" />
+    <Content Include="root\css\style.css" />
+    <Content Include="root\image\anh-email.jpg" />
+    <Content Include="root\image\Banner-Home.jpg" />
+    <Content Include="root\image\bg-img.jpg" />
+    <Content Include="root\image\bo-cong-thuong.svg" />
+    <Content Include="root\image\campaign-20240927.jpg" />
+    <Content Include="root\image\campaign-pxvn-20240927.jpg" />
+    <Content Include="root\image\congdong.jpg" />
+    <Content Include="root\image\cucsac.png" />
+    <Content Include="root\image\Drgnfly Banner.jpg" />
+    <Content Include="root\image\icon-apple.svg" />
+    <Content Include="root\image\icon-facebook.svg" />
+    <Content Include="root\image\icon-google.svg" />
+    <Content Include="root\image\img-fon-end\Al-tx2.py" />
+    <Content Include="root\image\img-fon-end\anh-email.jpg" />
+    <Content Include="root\image\img-fon-end\bo-cong-thuong.svg" />
+    <Content Include="root\image\img-fon-end\congdong.jpg" />
+    <Content Include="root\image\img-fon-end\cucsac.png" />
+    <Content Include="root\image\img-fon-end\img-fon-product-car\logo-xl.png" />
+    <Content Include="root\image\img-fon-end\img-fon-product-car\vf-3.png" />
+    <Content Include="root\image\img-fon-end\img-fon-product-car\vf3.jpg" />
+    <Content Include="root\image\img-fon-end\logo-2.png" />
+    <Content Include="root\image\img-fon-end\logo-new.png" />
+    <Content Include="root\image\img-fon-end\pinxemay.jpg" />
+    <Content Include="root\image\img-fon-end\showroom.jpg" />
+    <Content Include="root\image\img-fon-end\tramoto.jpg" />
+    <Content Include="root\image\img-fon-end\trãmemay.jpg" />
+    <Content Include="root\image\img-fon-end\vf3.jpg" />
+    <Content Include="root\image\img-fon-end\vf31.jpg" />
+    <Content Include="root\image\img-fon-end\vf5.jpg" />
+    <Content Include="root\image\img-fon-end\vf6.jpg" />
+    <Content Include="root\image\img-fon-end\vf8.png" />
+    <Content Include="root\image\img-fon-end\vf91.jpg" />
+    <Content Include="root\image\img-fon-end\vf93.jpg" />
+    <Content Include="root\image\img-fon-end\vfe341.jpg" />
+    <Content Include="root\image\img-fon-end\vfe342.jpg" />
+    <Content Include="root\image\img-fon-end\VinFast-logo.svg" />
+    <Content Include="root\image\img-fon-end\xanh1.jpeg" />
+    <Content Include="root\image\img-fon-product-car\logo-xl.png" />
+    <Content Include="root\image\img-fon-product-car\vf-3.png" />
+    <Content Include="root\image\img-fon-product-car\vf3.jpg" />
+    <Content Include="root\image\logo-admin.png" />
+    <Content Include="root\image\logo-new.png" />
+    <Content Include="root\image\mask-blob.svg" />
+    <Content Include="root\image\pinxemay.jpg" />
+    <Content Include="root\image\profile-1.jpg" />
+    <Content Include="root\image\showroom.jpg" />
+    <Content Include="root\image\Slider-VF8-25Aug-Desktop_3060x1406.jpg" />
+    <Content Include="root\image\tramoto.jpg" />
+    <Content Include="root\image\trãmemay.jpg" />
+    <Content Include="root\image\vf3.jpg" />
+    <Content Include="root\image\vf31.jpg" />
+    <Content Include="root\image\vf5.jpg" />
+    <Content Include="root\image\vf6.jpg" />
+    <Content Include="root\image\vf8.png" />
+    <Content Include="root\image\vf91.jpg" />
+    <Content Include="root\image\vf93.jpg" />
+    <Content Include="root\image\vfe341.jpg" />
+    <Content Include="root\image\vfe342.jpg" />
+    <Content Include="root\image\VinFast-logo.svg" />
+    <Content Include="root\image\WEB_PC_Homepage banner_3060 x 1406.jpg" />
+    <Content Include="root\image\xanh1.jpeg" />
+    <Content Include="root\js\analyti.js" />
+    <Content Include="root\js\group.js" />
+    <Content Include="root\js\index.js" />
+    <Content Include="root\js\script.js" />
+    <Content Include="User\Views\ShopOto.aspx" />
+    <Content Include="User\Views\TrangChu.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Controllers\Analytics.cs" />
+    <Compile Include="Admin\Controllers\DataUtil.cs" />
+    <Compile Include="Admin\Controllers\OrderData.cs" />
+    <Compile Include="Admin\Models\Chitietdonhang.cs" />
+    <Compile Include="Admin\Models\Donhang.cs" />
+    <Compile Include="Admin\Models\Dongxe.cs" />
+    <Compile Include="Admin\Models\Hangsanxuat.cs" />
+    <Compile Include="Admin\Models\Nguoidung.cs" />
+    <Compile Include="Admin\Models\PhanQuyen.cs" />
+    <Compile Include="Admin\Models\Sanpham.cs" />
+    <Compile Include="Admin\Models\Trangthai.cs" />
+    <Compile Include="Admin\Views\addDX.aspx.cs">
+      <DependentUpon>addDX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Views\addDX.aspx.designer.cs">
+      <DependentUpon>addDX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Views\addNXX.aspx.cs">
+      <DependentUpon>addNXX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Views\addNXX.aspx.designer.cs">
+      <DependentUpon>addNXX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Views\addSP.aspx.cs">
+      <DependentUpon>addSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Views\addSP.aspx.designer.cs">
+      <DependentUpon>addSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Views\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Views\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Views\analyti.aspx.cs">
+      <DependentUpon>analyti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Views\analyti.aspx.designer.cs">
+      <DependentUpon>analyti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Views\car.aspx.cs">
+      <DependentUpon>car.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Views\car.aspx.designer.cs">
+      <DependentUpon>car.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Views\Dongxe.aspx.cs">
+      <DependentUpon>Dongxe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Views\Dongxe.aspx.designer.cs">
+      <DependentUpon>Dongxe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Views\hangxe.aspx.cs">
+      <DependentUpon>hangxe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Views\hangxe.aspx.designer.cs">
+      <DependentUpon>hangxe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Views\order.aspx.cs">
+      <DependentUpon>order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Views\order.aspx.designer.cs">
+      <DependentUpon>order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Views\updateDH.aspx.cs">
+      <DependentUpon>updateDH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Views\updateDH.aspx.designer.cs">
+      <DependentUpon>updateDH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Views\updateSP.aspx.cs">
+      <DependentUpon>updateSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Views\updateSP.aspx.designer.cs">
+      <DependentUpon>updateSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\Views\Index.Master.cs">
+      <DependentUpon>Index.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Views\Index.Master.designer.cs">
+      <DependentUpon>Index.Master</DependentUpon>
+    </Compile>
+    <Compile Include="User\Views\ShopOto.aspx.cs">
+      <DependentUpon>ShopOto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Views\ShopOto.aspx.designer.cs">
+      <DependentUpon>ShopOto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Views\TrangChu.aspx.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Views\TrangChu.aspx.designer.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Views\Admin.Master" />
+    <None Include="packages.config" />
+    <Content Include="root\image\26Aug_Vinfast-Website_3060x1406px.webp" />
+    <Content Include="root\image\anh-bao-hanh.webp" />
+    <Content Include="root\image\Banner Number 1.webp" />
+    <Content Include="root\image\img-fon-end\anh-bao-hanh.webp" />
+    <Content Include="root\image\img-fon-end\img-fon-product-car\vf-5.webp" />
+    <Content Include="root\image\img-fon-end\img-fon-product-car\vf-6.webp" />
+    <Content Include="root\image\img-fon-end\img-fon-product-car\vf-7.webp" />
+    <Content Include="root\image\img-fon-end\img-fon-product-car\vf-8.webp" />
+    <Content Include="root\image\img-fon-end\img-fon-product-car\vf-9.webp" />
+    <Content Include="root\image\img-fon-end\img-fon-product-car\vf-e34.webp" />
+    <Content Include="root\image\img-fon-end\vf7-uu-diem-3.webp" />
+    <Content Include="root\image\img-fon-end\vf7.webp" />
+    <Content Include="root\image\img-fon-product-car\vf-5.webp" />
+    <Content Include="root\image\img-fon-product-car\vf-6.webp" />
+    <Content Include="root\image\img-fon-product-car\vf-7.webp" />
+    <Content Include="root\image\img-fon-product-car\vf-8.webp" />
+    <Content Include="root\image\img-fon-product-car\vf-9.webp" />
+    <Content Include="root\image\img-fon-product-car\vf-e34.webp" />
+    <Content Include="root\image\vf7-uu-diem-3.webp" />
+    <Content Include="root\image\vf7.webp" />
+    <Content Include="root\scss\base\_base.scss" />
+    <Content Include="root\scss\components\_breakpoints.scss" />
+    <Content Include="root\scss\components\_login.scss" />
+    <Content Include="root\scss\config\_variables.scss" />
+    <Content Include="root\scss\layout\_layout.scss" />
+    <Content Include="root\scss\styles.scss" />
+    <Content Include="User\Views\Index.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="root\image\img-back-end\" />
+    <Folder Include="User\Controllers\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56561</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56561/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

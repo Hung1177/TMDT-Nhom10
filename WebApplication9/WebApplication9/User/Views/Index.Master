@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index.master.cs" Inherits="WebApplication9.User.Views.Index" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinfast Car</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header class="flex flex-wrap justify-between items-center p-4 " id="menu">
+                <div class="flex items-center">
+                    <a href="index.html">
+                    <img alt="Vinfast Logo" class="h-8" height="50" src="/image/img-fon-end/logo-new.png" width="100"/>
+                    </a>
+                </div>
+                <nav class="flex space-x-8">
+                    <a class="gioithieu" href="#">Giới thiệu</a>
+                    <a class="oto" href="Shop-oto.html">Ô tô</a>
+                    <a class="xemay" href="Shop.html">Xe máy điện</a>
+                    <a class="dichvu" href="#">Dịch vụ hậu mãi</a>
+                    <a class="pin" href="#">Pin và trạm sạc</a>
+                    <a class="langluong" href="#">Lưu trữ năng lượng</a>
+                </nav>
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <input type="text" 
+                            class="bg-transparent border border-gray-1000 text-black px-3 py-1.5 w-60 rounded-full placeholder-gray-600 focus:outline-none" 
+                            placeholder="Tìm kiếm...">
+                        <button class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <a class="taikhoan" href="#">
+                        <span class="material-icons-sharp">
+                            shopping_cart
+                        </span>
+                    </a>
+                    <a href="Lai-thu.html">
+                    <button class="dangky">Đăng ký lái thử</button></a>
+                    <button id="menu-dv" class="text-black"><i class="fas fa-bars"></i></button>
+                </div>
+            </header>
+            <asp:ContentPlaceHolder ID="Noidung" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+    <footer class="bg-white py-10">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <img alt="VinFast logo" class=""  src="/image/img-fon-end/logo-new.png" style="width: 202px; height: 45px;"/>
+                    
+                <p class="text-gray-600">Công ty TNHH Kinh doanh Thương mại và Dịch vụ VinFast</p>
+                <p class="text-gray-600"><a class="font-bold mb-2"  >MST/MSDN:</a> 0108926276 do Sở KHĐT TP Hà Nội cấp lần đầu ngày 01/10/2019 và các lần thay đổi tiếp theo.</p>
+                <p class="text-gray-600"><a class="font-bold mb-2"  >>Địa chỉ trụ sở chính:</a> Số 7, đường Bằng Lăng 1, Khu đô thị Vinhomes Riverside, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam</p>
+                <p class="text-gray-600"><a class="font-bold mb-2"  >Hệ sinh thái: </a>    <a href="https://vinhomes.vn/vi"> Vinhomes </a>  <a href="https://vinmec.com/vi/" > Vinmec </a>   <a href="https://vinpearl.com/" >Vinpearl </a></p>
+            </div>
+            <div class="grid grid-cols-3 gap-4">
+                <div>
+                    <ul class="text-gray-600 space-y-2">
+                    <li>
+                        <a class="hover:underline text-gray-800 font-bold mb-2" href="#">VỀ VINFAST</a>
+                    </li>
+                    <li>
+                        <a class="hover:underline text-gray-800 font-bold mb-2" href="#">VỀ VINGROUP</a>
+                    </li>
+                    <li>
+                        <a class="hover:underline text-gray-800 font-bold mb-2" href="#">TIN TỨC</a>
+                    </li>
+                    <li>
+                        <a class="hover:underline text-gray-800 font-bold mb-2" href="#">ƯU ĐÃI</a>
+                    </li>
+                    <li>
+                        <a class="hover:underline text-gray-800 font-bold mb-2" href="#">SHOWROOM &amp; ĐẠI LÝ</a>
+                    </li>
+                    <li>
+                        <a class="hover:underline text-gray-800 font-bold mb-2" href="#">ĐIỀU KHOẢN CHÍNH SÁCH</a>
+                    </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-gray-800 font-bold mb-2">HOTLINE</h3>
+                    <p class="text-gray-600">
+                    <i class="fas fa-phone-alt"></i>1900 23 23 89</p>
+                    <p class="text-gray-600"><i class="fas fa-envelope"></i>support.vn@vinfastauto.com</p>
+                    <div class="mt-4">
+                        <h3 class="text-gray-800 font-bold mb-2">Kết nối với VinFast</h3>
+                        <div class="flex space-x-4">
+                            <a class="text-gray-600 hover:text-blue-600" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="text-gray-600 hover:text-blue-600" href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mx-auto mt-8 text-center text-gray-600">
+                    <img alt="Certification logo" class="mx-auto mb-4" height="50" src="/image/img-fon-end/bo-cong-thuong.svg" width="100"/>
+                    <p> VinFast. All rights reserved.</p>
+                    <p>© Copyright 2024</p>
+                </div>
+            </div>
+    
+        </div>
+    
+    </footer>
+</html>

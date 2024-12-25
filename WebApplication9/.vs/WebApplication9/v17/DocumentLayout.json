@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TMDT-Nhom10\\WebApplication9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\root\\js\\analyti.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\root\\js\\analyti.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\root\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\root\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\root\\css\\shopoto.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\root\\css\\shopoto.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\admin\\controllers\\datautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\admin\\controllers\\datautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\root\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\root\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\user\\views\\shopoto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\user\\views\\shopoto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\user\\views\\shopoto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\user\\views\\shopoto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\admin\\views\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\admin\\views\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\user\\views\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\user\\views\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\user\\views\\index.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\user\\views\\index.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\admin\\views\\car.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\admin\\views\\car.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|d:\\tmdt-nhom10\\webapplication9\\webapplication9\\root\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{09C262CC-578C-4423-B96B-3430F0A0DF4E}|WebApplication9\\WebApplication9.csproj|solutionrelative:webapplication9\\root\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 277,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "analyti.js",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\root\\js\\analyti.js",
+              "RelativeDocumentMoniker": "WebApplication9\\root\\js\\analyti.js",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\root\\js\\analyti.js",
+              "RelativeToolTip": "WebApplication9\\root\\js\\analyti.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-25T02:37:24.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\login.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication9\\login.aspx.cs",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\login.aspx.cs",
+              "RelativeToolTip": "WebApplication9\\login.aspx.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFUAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T01:27:06.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "script.js",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\root\\js\\script.js",
+              "RelativeDocumentMoniker": "WebApplication9\\root\\js\\script.js",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\root\\js\\script.js",
+              "RelativeToolTip": "WebApplication9\\root\\js\\script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-25T01:15:37.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\root\\css\\style.css",
+              "RelativeDocumentMoniker": "WebApplication9\\root\\css\\style.css",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\root\\css\\style.css",
+              "RelativeToolTip": "WebApplication9\\root\\css\\style.css",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-25T01:15:01.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.aspx",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\login.aspx",
+              "RelativeDocumentMoniker": "WebApplication9\\login.aspx",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\login.aspx",
+              "RelativeToolTip": "WebApplication9\\login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-25T01:13:32.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\Admin\\Views\\Admin.Master",
+              "RelativeDocumentMoniker": "WebApplication9\\Admin\\Views\\Admin.Master",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\Admin\\Views\\Admin.Master",
+              "RelativeToolTip": "WebApplication9\\Admin\\Views\\Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-25T01:07:02.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataUtil.cs",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\Admin\\Controllers\\DataUtil.cs",
+              "RelativeDocumentMoniker": "WebApplication9\\Admin\\Controllers\\DataUtil.cs",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\Admin\\Controllers\\DataUtil.cs",
+              "RelativeToolTip": "WebApplication9\\Admin\\Controllers\\DataUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T00:22:47.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShopOto.aspx.cs",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\User\\Views\\ShopOto.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication9\\User\\Views\\ShopOto.aspx.cs",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\User\\Views\\ShopOto.aspx.cs",
+              "RelativeToolTip": "WebApplication9\\User\\Views\\ShopOto.aspx.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAUwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T00:17:00.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShopOto.aspx",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\User\\Views\\ShopOto.aspx",
+              "RelativeDocumentMoniker": "WebApplication9\\User\\Views\\ShopOto.aspx",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\User\\Views\\ShopOto.aspx",
+              "RelativeToolTip": "WebApplication9\\User\\Views\\ShopOto.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-24T23:55:13.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TrangChu.aspx",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\User\\Views\\TrangChu.aspx",
+              "RelativeDocumentMoniker": "WebApplication9\\User\\Views\\TrangChu.aspx",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\User\\Views\\TrangChu.aspx",
+              "RelativeToolTip": "WebApplication9\\User\\Views\\TrangChu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-24T23:53:34.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.Master",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\User\\Views\\Index.Master",
+              "RelativeDocumentMoniker": "WebApplication9\\User\\Views\\Index.Master",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\User\\Views\\Index.Master",
+              "RelativeToolTip": "WebApplication9\\User\\Views\\Index.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-24T23:51:43.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "car.aspx",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\Admin\\Views\\car.aspx",
+              "RelativeDocumentMoniker": "WebApplication9\\Admin\\Views\\car.aspx",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\Admin\\Views\\car.aspx",
+              "RelativeToolTip": "WebApplication9\\Admin\\Views\\car.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-24T23:45:38.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "index.css",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\root\\css\\index.css",
+              "RelativeDocumentMoniker": "WebApplication9\\root\\css\\index.css",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\root\\css\\index.css",
+              "RelativeToolTip": "WebApplication9\\root\\css\\index.css",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-24T22:31:35.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShopOto.css",
+              "DocumentMoniker": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\root\\css\\ShopOto.css",
+              "RelativeDocumentMoniker": "WebApplication9\\root\\css\\ShopOto.css",
+              "ToolTip": "D:\\TMDT-Nhom10\\WebApplication9\\WebApplication9\\root\\css\\ShopOto.css",
+              "RelativeToolTip": "WebApplication9\\root\\css\\ShopOto.css",
+              "ViewState": "AgIAANUAAAAAAAAAAAAmwPUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-24T23:56:33.134Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
